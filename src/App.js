@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import { Button } from 'reactstrap'
+// import { Button } from 'reactstrap'
 
 
 class Title extends Component{
@@ -25,7 +25,7 @@ class App extends Component {
              <Title nombre='Nuevo titulo'/>
              <Title nombre='Nuevo titulo2'/>
              <Title nombre='Nuevo titulo3'/>
-             <Button color="danger">Danger!</Button>
+             
       </div>
       
     );          
