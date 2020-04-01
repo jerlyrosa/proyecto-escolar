@@ -26,6 +26,7 @@ class App extends Component {
              <Title nombre='Nuevo titulo2'/>
              <Title nombre='Nuevo titulo3'/>
              <Title nombre='Nuevo titulo4'/>
+             <Title nombre='Nuevo titulo4'/>
              
       </div>
       
