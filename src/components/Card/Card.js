@@ -5,10 +5,10 @@ const  Tarjeta = (props) => {
   return (
     <div>
       <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <CardImg   />
         <CardBody>
-          <CardTitle>Mision</CardTitle>
-          <CardText>Descripcion </CardText>
+         <CardTitle>{props.cardTitle}</CardTitle>
+          <CardText>{props.cardText} </CardText>
           <CardText>
             <small className="text-muted">Last updated 3 mins ago</small>
           </CardText>
@@ -17,5 +17,6 @@ const  Tarjeta = (props) => {
       </div>
   );
 };
+
 
 export default Tarjeta;

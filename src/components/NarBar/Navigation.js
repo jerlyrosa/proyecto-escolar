@@ -11,7 +11,7 @@ render() {
              <Navbar bg="dark" variant="dark">
                  <Navbar.Brand href="#home">Master</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Inicio</Nav.Link>
+                    <Nav.Link href="#Home">Inicio</Nav.Link>
                     <Nav.Link href="#features">Piezas</Nav.Link>
                     <Nav.Link href="#pricing">Nosotros</Nav.Link>
                 </Nav>

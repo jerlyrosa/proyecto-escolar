@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 import './App.css';
 // import { Button } from 'reactstrap'
 // import { Button } from 'react-bootstrap';
-import { Container, Row, Col } from 'reactstrap';
-import  Navigation  from './components/Navigation'
-import  Jum  from './components/Jumbotron'
-import  Tarjeta  from './components/Card'
+// import {  Col } from 'reactstrap';
+import  Navigation  from './components/NarBar/Navigation';
+// import  Jum  from './components/Jumbotron/Jumbotron';
+// // import  Tarjeta  from './components/Card';
+// import  Alerta  from './components/Alert/Alert';
+import Body from './components/body/index'
 
 
 // class Title extends Component{
@@ -20,28 +22,23 @@ import  Tarjeta  from './components/Card'
 // }
 
 
+             
 
 class App extends Component {
   render() {
     
     return (  
-          <div className="App">
+          <div className="app">
               
+  
+              <div className="header">
               <Navigation/>
-              <br></br>
 
-       <Container> 
-      <Row>
-        <Col><Jum/></Col>
-      </Row>
-      <Row>
-        <Col><Tarjeta/></Col>
-        <Col>Vision</Col>
-        <Col>Valores</Col>
-        
-      </Row>
-      </Container>    
-             
+			</div>
+      <div className="body">
+        <Body />
+      </div>
+         
       </div>
       
     );          
