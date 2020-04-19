@@ -35,6 +35,7 @@ class App extends Component {
               <Navigation/>
 
 			</div>
+      <br />
       <div className="body">
         <Body />
       </div>

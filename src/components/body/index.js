@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-
-// import  Navigation  from './NarBar/Navigation';
-import  Jum  from '../Jumbotron/Jumbotron';
-// import  Tarjeta  from './components/Card';
-import  Alerta  from '../Alert/Alert';
-import {  Col } from 'reactstrap';
+import { BrowserRouter as  Router, Route } from 'react-router-dom';
+import Productos from '../Productos/index';
+import Inicio from '../Inicio/index';
+import Nosotros from '../Nosotros/index'
 
 
 class Body extends Component {
@@ -13,20 +11,14 @@ class Body extends Component {
       return ( 
        
       <div className="body">
+  <Router>
+       <Route exact path="/productos" component={Productos} />
+       <Route exact path="/inicio" component={Inicio} />
+       <Route exact path="/nosotros" component={Nosotros} />
+
+</Router>
            
-    <Col> <Jum
-      title='Bienvenidos'
-      text='Este un sitio web disenado para mostrar...'
-/>  </Col>
-
-
-
-
-<Col><Alerta
-    color='dark'
-    text=' Algunos de los productos que ofrecemos'
-    textButton='ver mas'
-/></Col>  
+   
 
 </div>
 
