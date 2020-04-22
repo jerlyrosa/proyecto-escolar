@@ -8,12 +8,12 @@ class Navigation extends Component {
 render() {
     
     return (  
-          <div className="Navigation">
-             
-             <Navbar bg="dark" variant="dark">
-                 <Navbar.Brand href="/inicio">Master</Navbar.Brand>
+          <div className="Navigation"  >
+            
+             <Navbar bg="dark" variant="dark"  >
+                 <Navbar.Brand href="/">UNESIS</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href='/inicio'>Inicio</Nav.Link>
+                    <Nav.Link href='/'>Inicio</Nav.Link>
                     <Nav.Link  href='/productos'>Productos</Nav.Link>
                     <Nav.Link href='/nosotros'>Nosotros</Nav.Link>
                 </Nav>

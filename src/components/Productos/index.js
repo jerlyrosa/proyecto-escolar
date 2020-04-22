@@ -11,7 +11,7 @@ class Productos extends Component {
        
       <div className="productos">
    
-         
+
         <h1>Productos</h1>
       </div>
     );}

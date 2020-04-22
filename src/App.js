@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-// import { Button } from 'reactstrap'
-// import { Button } from 'react-bootstrap';
-// import {  Col } from 'reactstrap';
 import  Navigation  from './components/NarBar/Navigation';
-// import  Jum  from './components/Jumbotron/Jumbotron';
-// // import  Tarjeta  from './components/Card';
-// import  Alerta  from './components/Alert/Alert';
 import Body from './components/body/index'
+import Footer from './components/Footer/index';
+// import Iconos from './components/Icons/index';
 
 
 // class Title extends Component{
@@ -29,17 +25,24 @@ class App extends Component {
     
     return (  
           <div className="app">
-              
-  
-              <div className="header">
-              <Navigation/>
-
-			</div>
-      <br />
-      <div className="body">
-        <Body />
-      </div>
-         
+              <div className="header" class=" fixed-top ">
+                  <Navigation  />   
+                  
+			       </div>
+             <div className="Cintenedor" >
+                  <Navigation  />   
+                  
+			       </div>
+           <br />
+            <div className="body">
+                 <Body />
+                 {/* < Iconos/> */}
+            </div>
+            <br />
+            <div className="footer">
+                 <Footer/>
+            </div>
+        
       </div>
       
     );          

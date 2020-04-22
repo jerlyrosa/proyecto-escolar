@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter as  Router, Route } from 'react-router-dom';
+import { BrowserRouter as  Router, Route, Switch} from 'react-router-dom';
 import Productos from '../Productos/index';
 import Inicio from '../Inicio/index';
 import Nosotros from '../Nosotros/index'
+import { createBrowserHistory } from "history";
 
+const historial = createBrowserHistory();
 
 class Body extends Component {
     render() {
@@ -11,13 +13,22 @@ class Body extends Component {
       return ( 
        
       <div className="body">
-  <Router>
-       <Route exact path="/productos" component={Productos} />
-       <Route exact path="/inicio" component={Inicio} />
-       <Route exact path="/nosotros" component={Nosotros} />
+              <Router history={historial}>
+                {/* <Switch>
+                   <Route  path="/" exactcomponent={Inicio} />
+                    <Route  path="/productos"exact component={Productos} />
+                    <Route  path="/nosotros" exact component={Nosotros} />
+                    </Switch>  */}
 
-</Router>
-           
+ <Switch>
+        <Route exact path="/" render={() => <Inicio />} />
+        <Route path="/productos" render={() => <Productos/>} />
+        <Route path="/nostros" render={() => <Nosotros/>} />
+      </Switch> 
+              </Router>
+
+      
+          
    
 
 </div>
