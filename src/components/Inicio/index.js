@@ -21,7 +21,7 @@ class Inicio extends Component {
                   <Col sm={{size: 10, offset:1}}><Jum/></Col>
                 </Row>
              
-                <Container >
+                <Container  style={{position:'left'}} >
                     <div>
                       <h3>Productos
                       <Badge color="danger">Nuevo</Badge>
@@ -30,7 +30,7 @@ class Inicio extends Component {
                 
                   </Container> 
                  
-                  <Container>
+                  <Container >
                   <Row>
                   <Col xs="6" sm="3">
                     <Tarjeta  
