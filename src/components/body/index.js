@@ -20,11 +20,11 @@ class Body extends Component {
                     <Route  path="/nosotros" exact component={Nosotros} />
                     </Switch>  */}
 
- <Switch>
-        <Route exact path="/" render={() => <Inicio />} />
-        <Route path="/productos" render={() => <Productos/>} />
-        <Route path="/nostros" render={() => <Nosotros/>} />
-      </Switch> 
+                      <Switch>
+                          <Route exact path="/" render={() => <Inicio />} />
+                          <Route path="/productos" render={() => <Productos/>} />
+                          <Route path="/nostros" render={() => <Nosotros/>} />
+                        </Switch> 
               </Router>
 
       

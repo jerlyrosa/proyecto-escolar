@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Jum from './Design/Jumbotron'
-import Tarjeta from './Design/Tarjeta'
+import Jum from '../Design/Jumbotron'
+import Tarjeta from '../Design/Tarjeta'
 import {   Col, Row, Container,Button } from 'reactstrap';
 import { Badge } from 'reactstrap';
 import './index.css';
@@ -21,7 +21,7 @@ class Inicio extends Component {
                   <Col sm={{size: 10, offset:1}}><Jum/></Col>
                 </Row>
              
-                <Container  style={{position:'left'}} >
+                <Container  style={{marginTop:'50px'}} >
                     <div>
                       <h3>Productos
                       <Badge color="danger">Nuevo</Badge>

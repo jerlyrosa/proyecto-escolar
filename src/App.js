@@ -5,6 +5,7 @@ import  Navigation  from './components/NarBar/Navigation';
 import Body from './components/body/index'
 import Footer from './components/Footer/index';
 import Iconos from './components/Social-Narbar/index';
+// import Productos  from './components/Productos/index'
 
 
 
@@ -43,6 +44,7 @@ class App extends Component {
             <div className="body">
             <Iconos />
                  <Body />
+                 {/* <Productos /> */}
             </div>
             <br />
             <div className="footer">

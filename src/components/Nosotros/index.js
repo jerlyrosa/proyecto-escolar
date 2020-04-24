@@ -10,8 +10,6 @@ class Nosotros extends Component {
       return ( 
        
       <div className="nosotros">
-   
-         
         <h1>Nosotros</h1>
       </div>
     );}

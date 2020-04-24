@@ -3,6 +3,7 @@ import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
+import {Badge} from 'reactstrap';
 
 const Tarjeta = (props) => {
   return (
@@ -11,7 +12,7 @@ const Tarjeta = (props) => {
         <CardImg top width="100%" src={props.CardImg} alt="Card image cap" />
         <CardBody>
           <CardTitle>{props.CardTitle}</CardTitle>
-          <CardSubtitle>{props.CardSubtitle}</CardSubtitle>
+          <CardSubtitle><Badge color="primary" pill>{props.CardSubtitle}</Badge></CardSubtitle>
           <CardText>{props.CardText}</CardText>
           <Button>{props.Button}</Button>
         </CardBody>
