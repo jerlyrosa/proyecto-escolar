@@ -1,8 +1,9 @@
 import React from 'react';
-import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
+import { Pagination, PaginationItem, PaginationLink,Container } from 'reactstrap';
 
 const Paginacion = (props) => {
   return (
+    <Container  >
     <Pagination size="lg" color="primary">
       <PaginationItem active>
         <PaginationLink  first herf="/productos" />
@@ -32,7 +33,7 @@ const Paginacion = (props) => {
         <PaginationLink last href="#" />
       </PaginationItem >
     </Pagination>
-  
+    </Container>
   
   
   

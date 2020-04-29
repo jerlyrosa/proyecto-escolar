@@ -18,7 +18,11 @@ class Inicio extends Component {
       <div className="inicio">
           
                 <Row >
-                  <Col sm={{size: 10, offset:1}}><Jum/></Col>
+                  <Col sm={{size: 10, offset:1}}>
+                    <Jum
+                    Titulo='Bienvenidos'
+                    Descripcion='Esto es un aplicacion web con el fin de dar publicidad a UNESIS.'
+                  /></Col>
                 </Row>
              
                 <Container  style={{marginTop:'50px'}} >
@@ -111,7 +115,7 @@ class Inicio extends Component {
 
               <Container> <div>
                       <h3>Productos  
-                      <Badge color="warning">Limitados</Badge>
+                      <Badge color="warning" >Limitados</Badge>
                       </h3>
                       </div>
                       </Container>

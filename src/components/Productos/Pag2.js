@@ -21,7 +21,6 @@ class Pag2 extends Component {
                       </Alert>
                       </Container>
         <Container>
-
               <Carpinteria />
         </Container>
 

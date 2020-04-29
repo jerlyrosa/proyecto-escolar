@@ -15,7 +15,7 @@ class Productos extends Component {
       
       return ( 
        
-      <div className="no">
+      <div className="product">
         
 
         <Router history={historial}>
