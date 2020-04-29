@@ -34,25 +34,16 @@ class App extends Component {
                   
 			       </div>
              <div className="Contenedor" >
-                  <Navigation  />  
-                  
-              
-                  
-			       </div>
-             
+                   <Navigation  />  
+			       </div>        
            <br />
             <div className="body">
-            <Iconos />
+                 <Iconos />
                  <Body />
-                 {/* <Productos /> */}
             </div>
             <br />
             <div className="footer">
                  <Footer />
-                 
-                  
-                
-
             </div>
         
       </div>

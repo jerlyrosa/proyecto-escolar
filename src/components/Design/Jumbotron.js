@@ -6,8 +6,8 @@ const Jum = (props) => {
     <div>
       <Jumbotron fluid >
         <Container fluid>
-          <h1 className="display-3">Bienvenidos</h1>
-          <p className="lead">Esto esss un aplicacion web con el fin de dar publicidad a UNESIS.</p>
+          <h1 className="display-3">{props.Titulo}</h1>
+          <p className="lead">{props.Descripcion}</p>
         </Container>
       </Jumbotron>
     </div>
