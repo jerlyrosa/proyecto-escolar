@@ -43,8 +43,11 @@ class Inicio extends Component {
                       CardSubtitle='$ Precio'
                       CardText='Descripcion breve'
                       Button='Mas Detalles'
+                      ButtonTitulo='Titulo'
+                      ButtonBody='Descripccion de el producto quedfghjkl'
                     />
                     </Col>
+                   
                   <Col xs="5" sm="3">
                   <Tarjeta  
                       CardImg={img3}
@@ -151,16 +154,22 @@ class Inicio extends Component {
                       CardTitle='Producto 3' 
                       CardSubtitle='$ Precioo'
                       CardText='Descripcion breve'
-                      Button='Mas Detalles'/>
+                      Button='Mas Detalles'
+                      ButtonTitulo='Titulo2'
+                      ButtonBody='Descripccion2'
+                      
+                      />
                   </Col>
 
                   
                 </Row>
                   </Container>
-
+                 
                   <Button color="primary">Productos</Button>
+                  
                 </div>
               );}
 }
 
 export default Inicio;
+

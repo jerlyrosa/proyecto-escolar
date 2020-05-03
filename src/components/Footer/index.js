@@ -6,7 +6,7 @@ class Footer extends Component {
 		return (
 			<div >
 				
-				<footer id="sticky-footer" className="py-5 bg-dark text-white-50 ">
+				<footer  className="py-5 bg-dark text-white-50 ">
 					<div className=" text-center">
 						<Container>
 							<Row>

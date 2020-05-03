@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Container,Badge, Col, Row  } from 'reactstrap';
 import Tarjeta from '../../Design/Tarjeta';
-import img3 from '../../Img/img3.jpg'
+import img3 from '../../Img/img3.jpg';
+// import InterfazProducto from '../../Design-Productos/index';
 
 
 
@@ -24,17 +25,17 @@ class Carpinteria extends Component {
                         <Col xs="6" sm="3">
                          <Tarjeta  
                              CardImg={img3}
-                              CardTitle='Cemento' 
-                              CardSubtitle='$400'
+                              CardTitle='Piesas' 
+                              CardSubtitle='$500'
                                CardText='El cemento es un conglomerante formado a...'
-                             Button='Mas Detalles'
+                                Button='Mas Detalles'
                                      />
                                  </Col>
                    
                         <Col xs="5" sm="3">
                     <Tarjeta  
                         CardImg={img3}
-                        CardTitle='Cemento blanco' 
+                        CardTitle='Piesas' 
                         CardSubtitle='$500'
                         CardText='El cemento blanco es un tipo de cemento...'
                         Button='Mas Detalles'/>
@@ -42,16 +43,16 @@ class Carpinteria extends Component {
                   <Col sm="3">
                   <Tarjeta  
                       CardImg={img3}
-                      CardTitle='Producto 3' 
-                      CardSubtitle='$ Precio'
+                      CardTitle='Piesas' 
+                      CardSubtitle='$500'
                       CardText='Descripcion breve del producto del producto'
                       Button='Mas Detalles'/>
                   </Col>
                   <Col sm="3">
                   <Tarjeta  
                       CardImg={img3}
-                      CardTitle='Producto 3' 
-                      CardSubtitle='$ Precioo'
+                      CardTitle='Piesas' 
+                      CardSubtitle='$500'
                       CardText='Descripcion breve del producto'
                       Button='Mas Detalles'/>
                       
