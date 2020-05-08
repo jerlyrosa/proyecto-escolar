@@ -24,9 +24,10 @@ class Nosotros extends Component {
                        <CardHeader header inverse color="primary">Mision </CardHeader>
                          <CardBody >
                           <CardText>
-                              Lorem Ipsum Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem 
-                              Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  
-                              Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  
+                          Brindar a nuestro cliente los mejores servicios; 
+                          amplios portafolios de productos con las mejores marcas, 
+                          excelente calidad y precios competitivos, con un equipo humano 
+                          preparado para dar sus mejores servicios a nuestra comunidad y entorno.  
                             </CardText>
                     </CardBody>
                   </Card>
@@ -36,9 +37,12 @@ class Nosotros extends Component {
                       <CardHeader>Vision</CardHeader>
                          <CardBody>
                           <CardText>
-                            Lorem Ipsum Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem 
-                            Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  
-                            Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  
+                          Buscamos como una empresa líder superar las expectativas
+                           de nuestros clientes proyectándonos como una compañía competitiva 
+                           que sea de aporte para el crecimiento económico y social de nuestra 
+                           empresa.
+
+
                             </CardText>
                     </CardBody>
                   </Card>
@@ -48,9 +52,12 @@ class Nosotros extends Component {
                       <CardHeader>Valores</CardHeader>
                         <CardBody>
                           <CardText> 
-                            Lorem Ipsum Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem 
-                            Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  
-                             Lorem Ipsum  Lorem Ipsum  Lorem Ipsum  Lorem Ipsum    
+                          <Col>• Responsabilidad </Col>
+                          <Col>• Honestidad</Col>
+                          <Col>• Respeto</Col>
+                          <Col>• Trabajo en equipo</Col>
+                          <Col>• Pasión</Col>
+                          <Col>• Amor </Col>
                         </CardText>
                     </CardBody>
                   </Card>

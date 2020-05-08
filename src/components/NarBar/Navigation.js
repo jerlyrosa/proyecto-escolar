@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar, FormControl,Button,Form,Nav} from 'react-bootstrap';
+import {Navbar, Button,Form,Nav} from 'react-bootstrap';
 // import { BrowserRouter as Router, Route,Link} from 'react-router-dom';
 
 
@@ -18,8 +18,7 @@ render() {
                     <Nav.Link href='/nosotros'>Nosotros</Nav.Link>
                 </Nav>
                 <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-info">Search</Button>
+                    <Button variant="outline-info" href='/login'>Login</Button>
                 </Form>
                 </Navbar>
                      

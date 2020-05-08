@@ -5,22 +5,9 @@ import  Navigation  from './components/NarBar/Navigation';
 import Body from './components/body/index'
 import Footer from './components/Footer/index';
 import Iconos from './components/Social-Narbar/index';
-// import Productos  from './components/Productos/index'
 
 
 
-// class Title extends Component{
-//     render() {
-//       return <h2>{this.props.nombre}</h2>
-//     }
-// }
-
-// Title.defaultProps = { 
-//   nombre: 'Titulo Por Defecto'
-// }
-
-
-             
 
 class App extends Component {
   render() {
@@ -40,11 +27,14 @@ class App extends Component {
             <div className="body">
                  <Iconos />
                  <Body />
+                 
             </div>
             <br />
             <div className="footer">
                  <Footer />
-            </div>
+                 
+                
+            </div>       
         
       </div>
       
@@ -52,4 +42,6 @@ class App extends Component {
   }
 }
 
+
 export default App;
+
