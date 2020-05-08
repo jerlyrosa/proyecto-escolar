@@ -5,7 +5,8 @@ import  Navigation  from './components/NarBar/Navigation';
 import Body from './components/body/index'
 import Footer from './components/Footer/index';
 import Iconos from './components/Social-Narbar/index';
-import InterfazProducto from './components/Design-Productos/index'
+
+
 
 
 class App extends Component {
@@ -26,7 +27,6 @@ class App extends Component {
             <div className="body">
                  <Iconos />
                  <Body />
-                 {/* <InterfazProducto/>, */}
                  
             </div>
             <br />
@@ -44,3 +44,4 @@ class App extends Component {
 
 
 export default App;
+

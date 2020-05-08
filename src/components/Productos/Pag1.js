@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Container,Alert } from 'reactstrap';
 import Carpinteria from './Compontes-productos/Carpinteria';
-import Construcion from './Compontes-productos/Construcion';
-import Mecanica from './Compontes-productos/Mecanica'
 // import Paginacion from '../Paginacion/index';
 
 
@@ -14,7 +12,7 @@ class Pag1 extends Component {
        
       <div className="pag">
             <Container>
-                <Alert color="dark" >
+                <Alert color="primary" >
                       <h1>
                         Productos
                         </h1>
@@ -23,8 +21,6 @@ class Pag1 extends Component {
         <Container>
 
               <Carpinteria />
-              <Construcion />
-              <Mecanica />
 
         </Container>
 

@@ -5,6 +5,8 @@ import Paginacion from '../Paginacion/index';
 import Pag1 from './Pag1';
 import Pag2 from './Pag2';
 import Pag3 from './Pag3';
+
+
 import { createBrowserHistory } from "history";
 
 const historial = createBrowserHistory();
