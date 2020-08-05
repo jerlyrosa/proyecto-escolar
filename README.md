@@ -1,8 +1,20 @@
-# proyecto-escolar
+# Proyecto Escolar React 
 
-proyecto para apreder a utilizar git y los componentes react.js solos con props 
+Este tiene la finaliza mini-proyecto tiene la finalizada aprender a utilizar git, github y los componentes  de react solos con props.
 
-## Comando para iniciar el app
+## Como inicializar la aplicacion ?
+
+## Paso 1
+
+Lo primero que se debe realizar es instalar todas las dependecias y esto lo hacesmos con el siguiente comando:
+
+```
+ npm isntall
+
+ ```
+ ## Paso 2
+
+En  segundo lugar deberemos iniciar la aplicacion react  y esto lo hacesmos con el siguiente comando:
 
 ```
  npm start
