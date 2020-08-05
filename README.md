@@ -1,6 +1,6 @@
 # Proyecto Escolar React 
 
-Este tiene la finaliza mini-proyecto tiene la finalizada aprender a utilizar git, github y los componentes  de [Create React App](https://github.com/facebook/create-react-app).
+Este tiene la finaliza mini-proyecto tiene la finalizada aprender a utilizar git, github y el proyecto  de [Create React App](https://github.com/facebook/create-react-app).
 
 ## Como inicializar la aplicacion ?
 
@@ -20,3 +20,7 @@ En  segundo lugar deberemos iniciar la aplicacion react  y esto lo hacesmos con 
  npm start
 
  ```
+
+##Aprende sobre React
+
+Documetacion aqui:  [React documentation](https://reactjs.org/).
