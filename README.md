@@ -21,6 +21,6 @@ En  segundo lugar deberemos iniciar la aplicacion react  y esto lo hacesmos con 
 
  ```
 
-##Aprende sobre React
+## Aprende sobre React
 
 Documetacion aqui:  [React documentation](https://reactjs.org/).
