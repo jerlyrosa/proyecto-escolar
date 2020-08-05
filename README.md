@@ -4,7 +4,7 @@ Este tiene la finaliza mini-proyecto tiene la finalizada aprender a utilizar git
 
 ## Como inicializar la aplicacion ?
 
-** Paso 1 **
+**Paso 1**
 
 Lo primero que se debe realizar es instalar todas las dependecias y esto lo hacesmos con el siguiente comando:
 
@@ -12,7 +12,7 @@ Lo primero que se debe realizar es instalar todas las dependecias y esto lo hace
  npm isntall
 
  ```
- ** Paso 2 **
+ **Paso 2**
 
 En  segundo lugar deberemos iniciar la aplicacion react  y esto lo hacesmos con el siguiente comando:
 
